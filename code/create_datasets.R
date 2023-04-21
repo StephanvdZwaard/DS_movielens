@@ -14,7 +14,7 @@ library(caret)
 # https://grouplens.org/datasets/movielens/10m/
 # http://files.grouplens.org/datasets/movielens/ml-10m.zip
 
-options(timeout = 120)
+options(timeout = 240)
 
 dl <- "data/ml-10M100K.zip"
 if(!file.exists(dl))
